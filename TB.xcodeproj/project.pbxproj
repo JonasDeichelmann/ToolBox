@@ -10,6 +10,7 @@
 		DD6706001F67A9E500969F8C /* TB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6705F61F67A9E400969F8C /* TB.framework */; };
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706101F67AD9400969F8C /* consolePrint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DD6705FF1F67A9E500969F8C /* TBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6706041F67A9E500969F8C /* TBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTests.swift; sourceTree = "<group>"; };
 		DD6706061F67A9E500969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6706101F67AD9400969F8C /* consolePrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = consolePrint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DD6705F91F67A9E400969F8C /* TB.h */,
 				DD6705FA1F67A9E400969F8C /* Info.plist */,
+				DD6706101F67AD9400969F8C /* consolePrint.swift */,
 			);
 			path = TB;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 					DD6705F51F67A9E400969F8C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6XRGVQSWRU;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					DD6705FE1F67A9E500969F8C = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +329,7 @@
 		DD67060B1F67A9E500969F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6XRGVQSWRU;
@@ -336,6 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoDe.TB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +350,7 @@
 		DD67060C1F67A9E500969F8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6XRGVQSWRU;
@@ -362,6 +370,7 @@
 		DD67060E1F67A9E500969F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6XRGVQSWRU;
 				INFOPLIST_FILE = TBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +383,7 @@
 		DD67060F1F67A9E500969F8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6XRGVQSWRU;
 				INFOPLIST_FILE = TBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
