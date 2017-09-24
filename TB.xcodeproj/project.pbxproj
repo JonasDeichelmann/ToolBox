@@ -11,6 +11,7 @@
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706101F67AD9400969F8C /* consolePrint.swift */; };
+		DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34A021F778CF8001B35EA /* UIViewEX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		DD6706041F67A9E500969F8C /* TBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTests.swift; sourceTree = "<group>"; };
 		DD6706061F67A9E500969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6706101F67AD9400969F8C /* consolePrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = consolePrint.swift; sourceTree = "<group>"; };
+		DDC34A021F778CF8001B35EA /* UIViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				DD6705F91F67A9E400969F8C /* TB.h */,
 				DD6705FA1F67A9E400969F8C /* Info.plist */,
 				DD6706101F67AD9400969F8C /* consolePrint.swift */,
+				DDC34A021F778CF8001B35EA /* UIViewEX.swift */,
 			);
 			path = TB;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
+				DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				DD67060C1F67A9E500969F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD67060D1F67A9E500969F8C /* Build configuration list for PBXNativeTarget "TBTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				DD67060F1F67A9E500969F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
