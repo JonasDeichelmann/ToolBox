@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TB"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "TB means Toolbox for some swift stuff."
   s.description  = "The Toolbox customize some useful things in your Swift project."
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-   s.platform     = :ios, "10.0"
+   s.platform     = :ios
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
- s.source       = { :git => "https://github.com/JonasDeichelmann/ToolBox.git", :tag => "1.0.0" }
+ s.source       = { :git => "https://github.com/JonasDeichelmann/ToolBox.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
