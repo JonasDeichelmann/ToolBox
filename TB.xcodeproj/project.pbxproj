@@ -14,7 +14,7 @@
 		DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34A021F778CF8001B35EA /* UIViewEX.swift */; };
 		DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */; };
 		DDF6CA6D1F7DCFF80063F4D8 /* SwiftAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6CA6C1F7DCFF80063F4D8 /* SwiftAlertController.swift */; };
-		DDFDDD3E1F7E023F00200F68 /* UiViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDDD3D1F7E023F00200F68 /* UiViewControllerEX.swift */; };
+		DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		DDC34A021F778CF8001B35EA /* UIViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEX.swift; sourceTree = "<group>"; };
 		DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInspectable.swift; sourceTree = "<group>"; };
 		DDF6CA6C1F7DCFF80063F4D8 /* SwiftAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAlertController.swift; sourceTree = "<group>"; };
-		DDFDDD3D1F7E023F00200F68 /* UiViewControllerEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiViewControllerEX.swift; sourceTree = "<group>"; };
+		DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			children = (
 				DDC34A021F778CF8001B35EA /* UIViewEX.swift */,
 				DDF6CA6C1F7DCFF80063F4D8 /* SwiftAlertController.swift */,
-				DDFDDD3D1F7E023F00200F68 /* UiViewControllerEX.swift */,
+				DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFDDD3E1F7E023F00200F68 /* UiViewControllerEX.swift in Sources */,
+				DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */,
 				DDF6CA6D1F7DCFF80063F4D8 /* SwiftAlertController.swift in Sources */,
 				DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */,
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
