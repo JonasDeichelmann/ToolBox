@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD65BC5F1FA4151700C8A1BB /* contactsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65BC5E1FA4151700C8A1BB /* contactsHandler.swift */; };
 		DD6706001F67A9E500969F8C /* TB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6705F61F67A9E400969F8C /* TB.framework */; };
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD65BC5E1FA4151700C8A1BB /* contactsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsHandler.swift; sourceTree = "<group>"; };
 		DD6705F61F67A9E400969F8C /* TB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6705F91F67A9E400969F8C /* TB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TB.h; sourceTree = "<group>"; };
 		DD6705FA1F67A9E400969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				DD6706101F67AD9400969F8C /* consolePrint.swift */,
 				DD4DB3F71F7B28BE00A6BAAC /* Extension */,
 				DD4DB3F61F7B28B900A6BAAC /* Inspectables */,
+				DD65BC5E1FA4151700C8A1BB /* contactsHandler.swift */,
 			);
 			path = TB;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */,
+				DD65BC5F1FA4151700C8A1BB /* contactsHandler.swift in Sources */,
 				DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */,
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
 				DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */,
