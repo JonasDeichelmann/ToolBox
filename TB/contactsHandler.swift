@@ -11,6 +11,7 @@ import Contacts
 import ContactsUI
 
 
+@available(iOS 9.0, *)
 class ContactsHandler: NSObject,CNContactPickerDelegate {
     static let sharedInstance = ContactsHandler()
 
@@ -20,7 +21,6 @@ class ContactsHandler: NSObject,CNContactPickerDelegate {
 
     public func requestForAccess(completionHandler: @escaping (_ accessGranted: Bool) -> Void) {
         let authorizationStatus = CNContactStore.authorizationStatus(for: CNEntityType.contacts)
-
         switch authorizationStatus {
         case .authorized:
             completionHandler(true)
