@@ -8,7 +8,11 @@
 
 import Foundation
 
-//Function that creates alerts
+//TODO: Embed Localization
+///Desc: Function that creates alerts with one "OK" Button.
+///USAGE:
+/// let alert = TB.createAlert(title: "MyAlert", message:"MyMessage")
+/// self.present(alert, animated: true, completion: nil)
 func createAlert(title:String,message:String)-> UIAlertController{
     let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
 
