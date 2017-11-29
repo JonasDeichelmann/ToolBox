@@ -15,6 +15,7 @@
 		DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73B8271FC527A30054E730 /* accountCheck.swift */; };
 		DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34A021F778CF8001B35EA /* UIViewEX.swift */; };
 		DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */; };
+		DDF68F971FCF253200FA84BE /* RunScript in Resources */ = {isa = PBXBuildFile; fileRef = DDF68F961FCF253200FA84BE /* RunScript */; };
 		DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		DD73B8271FC527A30054E730 /* accountCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountCheck.swift; sourceTree = "<group>"; };
 		DDC34A021F778CF8001B35EA /* UIViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEX.swift; sourceTree = "<group>"; };
 		DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInspectable.swift; sourceTree = "<group>"; };
+		DDF68F961FCF253200FA84BE /* RunScript */ = {isa = PBXFileReference; lastKnownFileType = text; path = RunScript; sourceTree = "<group>"; };
 		DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				DD6705FA1F67A9E400969F8C /* Info.plist */,
 				DD4DB3F71F7B28BE00A6BAAC /* Extension */,
 				DD4DB3F61F7B28B900A6BAAC /* Inspectables */,
+				DDF68F961FCF253200FA84BE /* RunScript */,
 			);
 			path = TB;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF68F971FCF253200FA84BE /* RunScript in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
