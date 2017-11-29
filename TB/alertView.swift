@@ -13,7 +13,7 @@ import Foundation
 ///USAGE:
 /// let alert = TB.createAlert(title: "MyAlert", message:"MyMessage")
 /// self.present(alert, animated: true, completion: nil)
-func createAlert(title:String,message:String)-> UIAlertController{
+public func createAlert(title:String,message:String)-> UIAlertController{
     let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
 
     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in

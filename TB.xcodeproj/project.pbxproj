@@ -12,7 +12,7 @@
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706101F67AD9400969F8C /* consolePrint.swift */; };
-		DD73B8281FC527A30054E730 /* AccountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73B8271FC527A30054E730 /* AccountCheck.swift */; };
+		DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73B8271FC527A30054E730 /* accountCheck.swift */; };
 		DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34A021F778CF8001B35EA /* UIViewEX.swift */; };
 		DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */; };
 		DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */; };
@@ -37,7 +37,7 @@
 		DD6706041F67A9E500969F8C /* TBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTests.swift; sourceTree = "<group>"; };
 		DD6706061F67A9E500969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6706101F67AD9400969F8C /* consolePrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = consolePrint.swift; sourceTree = "<group>"; };
-		DD73B8271FC527A30054E730 /* AccountCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCheck.swift; sourceTree = "<group>"; };
+		DD73B8271FC527A30054E730 /* accountCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountCheck.swift; sourceTree = "<group>"; };
 		DDC34A021F778CF8001B35EA /* UIViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEX.swift; sourceTree = "<group>"; };
 		DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInspectable.swift; sourceTree = "<group>"; };
 		DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEX.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				DDC34A021F778CF8001B35EA /* UIViewEX.swift */,
 				DD0F32711FC2924E00552F1A /* alertView.swift */,
 				DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */,
-				DD73B8271FC527A30054E730 /* AccountCheck.swift */,
+				DD73B8271FC527A30054E730 /* accountCheck.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD73B8281FC527A30054E730 /* AccountCheck.swift in Sources */,
+				DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */,
 				DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */,
 				DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */,
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
