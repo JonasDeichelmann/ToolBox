@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TB"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "TB means Toolbox for some swift stuff."
   s.description  = "The Toolbox customize some useful things in your Swift project."
 
