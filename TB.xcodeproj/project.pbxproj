@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD0F32721FC2924E00552F1A /* alertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F32711FC2924E00552F1A /* alertView.swift */; };
+		DD0F72671FD0EB8300592BC2 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F72661FD0EB8300592BC2 /* Date.swift */; };
 		DD6706001F67A9E500969F8C /* TB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6705F61F67A9E400969F8C /* TB.framework */; };
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		DD0F32711FC2924E00552F1A /* alertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertView.swift; sourceTree = "<group>"; };
+		DD0F72661FD0EB8300592BC2 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DD6705F61F67A9E400969F8C /* TB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6705F91F67A9E400969F8C /* TB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TB.h; sourceTree = "<group>"; };
 		DD6705FA1F67A9E400969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				DD0F32711FC2924E00552F1A /* alertView.swift */,
 				DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */,
 				DD73B8271FC527A30054E730 /* accountCheck.swift */,
+				DD0F72661FD0EB8300592BC2 /* Date.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */,
 				DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */,
+				DD0F72671FD0EB8300592BC2 /* Date.swift in Sources */,
 				DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */,
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
 				DD0F32721FC2924E00552F1A /* alertView.swift in Sources */,
