@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DD0F32721FC2924E00552F1A /* alertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F32711FC2924E00552F1A /* alertView.swift */; };
 		DD0F72671FD0EB8300592BC2 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F72661FD0EB8300592BC2 /* Date.swift */; };
+		DD25ECC21FD9148B00526E31 /* RunScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD25ECC11FD9148B00526E31 /* RunScript.swift */; };
+		DD3FDD471FD2873900C70835 /* creatingPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FDD461FD2873900C70835 /* creatingPDF.swift */; };
 		DD6706001F67A9E500969F8C /* TB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6705F61F67A9E400969F8C /* TB.framework */; };
 		DD6706051F67A9E500969F8C /* TBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6706041F67A9E500969F8C /* TBTests.swift */; };
 		DD6706071F67A9E500969F8C /* TB.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6705F91F67A9E400969F8C /* TB.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +18,6 @@
 		DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73B8271FC527A30054E730 /* accountCheck.swift */; };
 		DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34A021F778CF8001B35EA /* UIViewEX.swift */; };
 		DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */; };
-		DDF68F971FCF253200FA84BE /* RunScript in Resources */ = {isa = PBXBuildFile; fileRef = DDF68F961FCF253200FA84BE /* RunScript */; };
 		DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		DD0F32711FC2924E00552F1A /* alertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertView.swift; sourceTree = "<group>"; };
 		DD0F72661FD0EB8300592BC2 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		DD25ECC11FD9148B00526E31 /* RunScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunScript.swift; sourceTree = "<group>"; };
+		DD3FDD461FD2873900C70835 /* creatingPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creatingPDF.swift; sourceTree = "<group>"; };
 		DD6705F61F67A9E400969F8C /* TB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6705F91F67A9E400969F8C /* TB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TB.h; sourceTree = "<group>"; };
 		DD6705FA1F67A9E400969F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +46,6 @@
 		DD73B8271FC527A30054E730 /* accountCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountCheck.swift; sourceTree = "<group>"; };
 		DDC34A021F778CF8001B35EA /* UIViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEX.swift; sourceTree = "<group>"; };
 		DDF3E5FC1F77986C001A6750 /* ViewInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInspectable.swift; sourceTree = "<group>"; };
-		DDF68F961FCF253200FA84BE /* RunScript */ = {isa = PBXFileReference; lastKnownFileType = text; path = RunScript; sourceTree = "<group>"; };
 		DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				DD0F32711FC2924E00552F1A /* alertView.swift */,
 				DDFDDD3D1F7E023F00200F68 /* UIViewControllerEX.swift */,
 				DD73B8271FC527A30054E730 /* accountCheck.swift */,
+				DD3FDD461FD2873900C70835 /* creatingPDF.swift */,
 				DD0F72661FD0EB8300592BC2 /* Date.swift */,
 			);
 			name = Extension;
@@ -112,7 +115,7 @@
 				DD6705FA1F67A9E400969F8C /* Info.plist */,
 				DD4DB3F71F7B28BE00A6BAAC /* Extension */,
 				DD4DB3F61F7B28B900A6BAAC /* Inspectables */,
-				DDF68F961FCF253200FA84BE /* RunScript */,
+				DD25ECC11FD9148B00526E31 /* RunScript.swift */,
 			);
 			path = TB;
 			sourceTree = "<group>";
@@ -223,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF68F971FCF253200FA84BE /* RunScript in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,8 +246,10 @@
 				DD73B8281FC527A30054E730 /* accountCheck.swift in Sources */,
 				DDFDDD3E1F7E023F00200F68 /* UIViewControllerEX.swift in Sources */,
 				DD0F72671FD0EB8300592BC2 /* Date.swift in Sources */,
+				DD3FDD471FD2873900C70835 /* creatingPDF.swift in Sources */,
 				DDF3E5FD1F77986C001A6750 /* ViewInspectable.swift in Sources */,
 				DD6706111F67AD9400969F8C /* consolePrint.swift in Sources */,
+				DD25ECC21FD9148B00526E31 /* RunScript.swift in Sources */,
 				DD0F32721FC2924E00552F1A /* alertView.swift in Sources */,
 				DDC34A031F778CF8001B35EA /* UIViewEX.swift in Sources */,
 			);
