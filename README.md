@@ -5,7 +5,7 @@
 A Toolbox for some useful iOS Functions
 
 ## Installation
-To install it, simply add the following line to your Podfile:
+To install it, simply add the following line to your Podfile:  
 `pod 'TB', :git => 'https://github.com/JonasDeichelmann/ToolBox.git'`
 
 ## Usage
